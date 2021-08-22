@@ -7,13 +7,17 @@ Context:
 This is an undergraduate work which consists in modeling a genetic algorithm to a robot that needs to find the exit in a box with random obstacles. The robot cannot walk in diagonal. It can walk only in the 4 basics directions.
 
 All the used genetic algorithms methods commented are in "/SRC/genetic.c".
+
 All the functions related to the robot implementation are in "/SRC/robot.c".
 
 Each individual has a chromosome with 10 genes, indicating a direction change.
+
 The traveled distance of each individual is given by the sum of differences of each point by its previous position, stored in its genes, plus the traveled distance to bypass the obstacles.
+
 In the Classification step, the inverse of distance was utilized to determine the fitness.
 
 Each generation has a local minimum, representing its best individual.
+
 The global minimum is the best path found across all the generations.
 
 Contexto:
