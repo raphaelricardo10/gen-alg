@@ -20,7 +20,7 @@ int main()
     {
         gen++;
         distance = (int)(1/calculate_fitness());
-        decodificate();
+        decode();
         printf("Gen: %lld\tMenor Distancia Local: %d\tMenor Distancia Absoluta: %d\t",
                 gen, distance, winner.minor_distance);
         printf("Coordenadas da porta(x,y): (%d,%d)\n", door.p.x, door.p.y);

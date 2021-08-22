@@ -37,8 +37,8 @@ struct distance
 }winner;
 
 void set_start_variables();
-void codificate();
-void decodificate();
+void encode();
+void decode();
 int verificate_collision();
 void randomize_obstacles();
 

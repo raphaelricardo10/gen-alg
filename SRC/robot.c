@@ -13,7 +13,7 @@ void set_start_variables()
     
 }
 
-void decodificate()
+void decode()
 {
     for(int i = 0; i < ROBOT_QNT; i++)
     {
