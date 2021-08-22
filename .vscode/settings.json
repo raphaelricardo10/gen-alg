@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "genetic.h": "c",
+        "stdio.h": "c",
+        "robot.h": "c",
+        "unistd.h": "c"
+    }
+}
