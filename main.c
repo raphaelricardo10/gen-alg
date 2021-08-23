@@ -21,7 +21,7 @@ int main()
         gen++;
         distance = (int)(1/calculate_fitness());
         decode();
-        printf("Gen: %lld\tMenor Distancia Local: %d\tMenor Distancia Absoluta: %d\t",
+        printf("Gen: %lld\tLocal minimmum: %d\tGlobal minimmum: %d\t",
                 gen, distance, winner.minor_distance);
         printf("Coordenadas da porta(x,y): (%d,%d)\n", door.p.x, door.p.y);
         if(random <= MUTATION_PROB)
