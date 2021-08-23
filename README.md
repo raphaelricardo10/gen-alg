@@ -1,5 +1,4 @@
 #Genetic Algorithm Implementation
-
 Aluno: Raphael Gonçalves
 Turma: 1INF38B
 Data: 11/2018
