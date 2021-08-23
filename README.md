@@ -3,7 +3,7 @@ Aluno: Raphael Gonçalves
 Turma: 1INF38B
 Data: 11/2018
 
-Context:
+## Context:
 
 This is an undergraduate work which consists in modeling a genetic algorithm to a robot that needs to find the exit in a box with random obstacles. The robot cannot walk in diagonal. It can walk only in the 4 basics directions.
 
@@ -21,7 +21,7 @@ Each generation has a local minimum, representing its best individual.
 
 The global minimum is the best path found across all the generations.
 
-Contexto:
+## Contexto:
 
 Este é um trabalho universitário com o objetivo de modelar um algoritmo genético para um robô que precisa encontrar a saída em uma caixa com obstáculos que aparecem aleatoriamente. O robô nao pode andar na diagonal, somente nas quatro direções básicas.
 
